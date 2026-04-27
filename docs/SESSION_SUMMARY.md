@@ -1,6 +1,11 @@
 # Oturum Özeti
 
 **Son güncelleme:** 2026-04-27
+**Repo:** https://github.com/eipekyun/durakmakine
+**Aşama:** ESMARK Digital Marketing müşteri projesi — **inceleme / teklif aşaması** (kod yok, belge ve sunum üretildi)
+
+## Hemen sıradaki iş
+**2026-04-28 telefon görüşmesi (Fahrettin Durak).** Hazırlık dokümanı: [toplanti/2026-04-28-hazirlik.md](./toplanti/2026-04-28-hazirlik.md) — 19 soruluk liste + sunulacak bulgular + yeni site mimarisi taslağı. Görüşme sonrası notlar [gorusmeler.md](./gorusmeler.md) altına `## 2026-04-28` başlığıyla işlenecek.
 
 ## Yapılanlar
 - Proje iskelet dizini, [README.md](../README.md) ve [CLAUDE.md](../CLAUDE.md) kuruldu
@@ -10,16 +15,14 @@
   - [Instagram durumu](./inceleme/instagram.md) — fetch sınırlı, manuel + toplantı kontrolü gerek
   - [Mekasis derinlemesine analiz](./inceleme/mekasis.md) — temsilcilikler güçlü, galeri placeholder, 5 eksen iddiası kanıtsız
   - [Sektör ve piyasa](./inceleme/sektor-piyasa.md) — Bursa otomotiv merkezi, Uysal ve NYT ek rakip, pres üreticileri iş ortağı potansiyeli
-- [2026-04-28 toplantı hazırlık dokümanı](./toplanti/2026-04-28-hazirlik.md) — 19 soru + sunulacak bulgular + yeni site mimarisi taslağı
-- **Müşteri sunumu üretildi:** [`scripts/build_sunum.py`](../scripts/build_sunum.py) → `cikti/durak-sunum.pptx` (12 slayt, lacivert + turuncu B2B palet, Mekasis vs Durak karşılaştırması, "Sözünü kanıtlayan üretici" ana mesajı)
-- Git deposu başlatıldı, atomik commit'lerle ilk durum kaydedildi
+- [2026-04-28 toplantı hazırlık dokümanı](./toplanti/2026-04-28-hazirlik.md) yazıldı
+- Müşteri sunumu üretildi: [`scripts/build_sunum.py`](../scripts/build_sunum.py) → `cikti/durak-sunum.pptx` (12 slayt, lacivert + turuncu B2B palet, Mekasis vs Durak karşılaştırması, *"Sözünü kanıtlayan üretici"* ana mesajı)
+- Git: `main` branch, 3 atomik commit (chore → docs → feat), GitHub'a push edildi
 
-## Sırada
-1. **Yarınki telefon görüşmesi (2026-04-28)** — hazırlık dokümanı üzerinden ilerle
-2. Toplantı notlarını [gorusmeler.md](./gorusmeler.md) altına `## 2026-04-28` başlığıyla işle
-3. Netleşen bilgileri ilgili belgelere yansıt (yeni adres → firma.md, makine envanteri → farklılaştırıcılar.md, vb.)
-4. Sunum içeriğini toplantı sonuçlarına göre güncelle (`scripts/build_sunum.py` düzenle → yeniden üret)
-5. Bütçe ve scope onayı sonrası: teklif/sözleşme dokümanı
+## Sonra
+1. Netleşen bilgileri ilgili belgelere yansıt (yeni adres → firma.md, makine envanteri → farklılaştırıcılar.md, vb.)
+2. Sunum içeriğini toplantı sonuçlarına göre güncelle (`scripts/build_sunum.py` düzenle → `.venv/bin/python scripts/build_sunum.py`)
+3. Bütçe ve scope onayı sonrası: teklif/sözleşme dokümanı
 
 ## Açık sorular (toplantıda kapatılacak)
 - Yeni adres tam metni (GBP için)
@@ -30,3 +33,7 @@
 - Foto/video arşivi var mı, çekim gerekli mi
 - Bütçe ve hedef canlıya alınma tarihi
 - Karar mekanizması (tek karar verici Fahrettin Bey mi?)
+
+## Geliştirme ortamı
+- `.venv/` (gitignore'da) — `python -m venv .venv && .venv/bin/pip install python-pptx`
+- Sunum üret: `.venv/bin/python scripts/build_sunum.py` → `cikti/durak-sunum.pptx`
