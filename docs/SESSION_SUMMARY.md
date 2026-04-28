@@ -5,9 +5,13 @@
 **Aşama:** Toplantı tamamlandı, **post-mortem yapıldı**, **strateji revize edildi**, müşteriye 5-7 gün sonra low-commitment paket ile dönülecek.
 
 ## Hemen sıradaki iş
-**2026-05-03 ↔ 2026-05-05 arası takip mesajı.** Müşteri "düşüneceğim" pozisyonunda, aylık 20K paket ona fazla geldi. Yeni plan:
+**2026-05-05 Salı veya 2026-05-06 Çarşamba sabahı (10-11) takip mesajı.** Müşteri "düşüneceğim" pozisyonunda, aylık 20K paket ona fazla geldi. Pencere bu iki güne sıkışıyor çünkü:
+- 05-01 Cuma → **1 Mayıs tatili**
+- 05-02/03 → hafta sonu
+- 05-04 Pzt → 1 Mayıs köprü günü (yarım/kapalı)
 
-1. **5-7 gün sessiz bekleme** (müşterinin "düşünme zamanı" talebine saygı + baskı yokluğu sinyali)
+Yeni plan:
+1. **7-8 gün sessiz bekleme** (müşterinin "düşünme zamanı" talebine saygı + baskı yokluğu sinyali, tatil penceresinden geç)
 2. **Kısa WhatsApp mesajı** — taslak hazır: [gorusmeler.md → planlanan takip](./gorusmeler.md). Ton: müşteriyi haklı çıkar, aylık bağ olmadığını net söyle, detay isterse iletmek üzere kapıyı açık bırak.
 3. **Müşteri detay isterse** revize teklif sunulur: [teklif-v2.md](./teklif-v2.md) — **15.000 TL tek seferlik**, web + GBP + temel SEO, aylık yönetim ve reklam yok.
 

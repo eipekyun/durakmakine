@@ -102,11 +102,21 @@ Görüşme transkripti dış bir değerlendiriciye okutuldu. Çıkan sonuç: mü
 
 ---
 
-## 2026-05-03 → 2026-05-05 — Planlanan takip iletişimi (taslak)
+## 2026-05-05 / 2026-05-06 — Planlanan takip iletişimi (taslak)
 
 **Format:** WhatsApp mesajı, kısa, baskısız. Müşterinin kendi dönmesini bekleyen "kapı aralık" tonu.
-**Zamanlama:** Toplantıdan 5-7 gün sonra (yaklaşık **2026-05-03 ↔ 2026-05-05** arası).
+**Zamanlama:** **2026-05-05 Salı veya 2026-05-06 Çarşamba sabahı (10:00-11:00).**
 **Durum:** Henüz gönderilmedi — taslak.
+
+### Neden bu pencere
+Toplantı 2026-04-28 Salı yapıldı. Tatil takvimi nedeniyle önündeki günler sürekli atılır:
+- 04-29 Çar / 04-30 Per — çok erken, "düşünmedim bile" yanıtı gelir
+- **05-01 Cuma — 1 Mayıs İşçi Bayramı (resmi tatil)**
+- 05-02 Cmt / 05-03 Pzr — hafta sonu, iş mesajı zayıflık sinyali
+- 05-04 Pzt — Cuma + hafta sonu uzantısı (köprü günü), çoğu firma yarım veya kapalı
+- **05-05 Salı / 05-06 Çar — iş haftası tam oturmuş, toplantıdan 7-8 gün sonra → ideal**
+
+Bu pencerede sabah saatleri (10-11) tercih edilir; mesai başında, öğle yoğunluğu öncesi.
 
 ### Mesaj taslağı
 > Merhaba Fahrettin Bey, görüşmemiz üzerinde tekrar düşündüm.
