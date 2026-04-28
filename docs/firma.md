@@ -7,10 +7,19 @@
 
 ## Yetenekler
 - Eksantrik pres bakımı, tamiri, revizyonu
+- Hidrolik pres bakımı/revizyonu
 - Pres hat taşıma
 - Talaşlı imalat (kendi tesislerinde)
 - Büyük parça işleme: volan, krank mili vb.
-- **Büyük torna:** çap 780 mm × boy 5000 mm — Türkiye piyasasında 4-5 adet, kendilerinde mevcut
+- **Büyük torna:** çap 780 mm × boy 5000 mm — Türkiye/Bursa bölgesinde 4-5 adet, kendilerinde mevcut *(2026-04-28 toplantı notunda "5 metre torna" olarak geçti — sözleşme öncesi yazılı doğrulama alınacak)*
+- **Mekanik + hidrolik + otomasyon — üçünü birden** yapabilme yetkinliği
+- **Taşeronsuz üretim:** işlerin %60-70'i kendi makine parkında
+
+## Referanslar
+Sürekli çalışılan müşteriler (2026-04-28 toplantısında belirtilen):
+- Arçelik
+- Airpol
+- Betek Metal
 
 ## Web ve sosyal medya
 - **Web:** https://www.durakmakineotomasyon.com/

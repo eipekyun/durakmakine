@@ -1,11 +1,16 @@
 # Oturum Özeti
 
-**Son güncelleme:** 2026-04-27
+**Son güncelleme:** 2026-04-28
 **Repo:** https://github.com/eipekyun/durakmakine
-**Aşama:** ESMARK Digital Marketing müşteri projesi — **inceleme / teklif aşaması** (kod yok, belge ve sunum üretildi)
+**Aşama:** ESMARK Digital Marketing müşteri projesi — **toplantı tamamlandı, müşteri karar bekliyor**
 
 ## Hemen sıradaki iş
-**2026-04-28 telefon görüşmesi (Fahrettin Durak).** Hazırlık dokümanı: [toplanti/2026-04-28-hazirlik.md](./toplanti/2026-04-28-hazirlik.md) — 19 soruluk liste + sunulacak bulgular + yeni site mimarisi taslağı. Görüşme sonrası notlar [gorusmeler.md](./gorusmeler.md) altına `## 2026-04-28` başlığıyla işlenecek.
+**Müşteri düşünme süreci.** 2026-04-28 telefon görüşmesi (~75 dk) yapıldı; teklif sözel olarak iletildi (web kurulum 20.000 TL + aylık 20.000 TL + ayrı reklam bütçesi). Onay gelene kadar:
+1. Reklam bütçesi maliyet hesaplaması (sektörel benchmark + kanal dağılımı)
+2. **5 metre torna** detayı yazılı olarak doğrulanmalı (boy mu çap mı — 27.04 yazışmasındaki "çap 780 × boy 5000" ile çelişiyor olabilir)
+3. Onay gelirse: WhatsApp grubu + Drive klasörü kurulacak, 1 hafta içinde başlangıç, 2-3 haftada teslim
+
+Toplantı detayı: [gorusmeler.md → 2026-04-28](./gorusmeler.md)
 
 ## Yapılanlar
 - Proje iskelet dizini, [README.md](../README.md) ve [CLAUDE.md](../CLAUDE.md) kuruldu
@@ -16,23 +21,25 @@
   - [Mekasis derinlemesine analiz](./inceleme/mekasis.md) — temsilcilikler güçlü, galeri placeholder, 5 eksen iddiası kanıtsız
   - [Sektör ve piyasa](./inceleme/sektor-piyasa.md) — Bursa otomotiv merkezi, Uysal ve NYT ek rakip, pres üreticileri iş ortağı potansiyeli
 - [2026-04-28 toplantı hazırlık dokümanı](./toplanti/2026-04-28-hazirlik.md) yazıldı
-- Müşteri sunumu üretildi: [`scripts/build_sunum.py`](../scripts/build_sunum.py) → `cikti/durak-sunum.pptx` (12 slayt, lacivert + turuncu B2B palet, Mekasis vs Durak karşılaştırması, *"Sözünü kanıtlayan üretici"* ana mesajı)
-- Git: `main` branch, 3 atomik commit (chore → docs → feat), GitHub'a push edildi
+- Müşteri sunumu üretildi: [`scripts/build_sunum.py`](../scripts/build_sunum.py) → `cikti/durak-sunum.pptx` (12 slayt, lacivert + turuncu B2B palet)
+- **2026-04-28 telefon görüşmesi tamamlandı** — toplantı notu ve WhatsApp özeti [gorusmeler.md](./gorusmeler.md) altına işlendi
+- Toplantıda netleşen bilgiler ilgili belgelere yansıtıldı:
+  - [firma.md](./firma.md) — referanslar (Arçelik, Airpol, Betek Metal), %60-70 taşeronsuz, mekanik+hidrolik+otomasyon
+  - [farklilastiricilar.md](./farklilastiricilar.md) — %60-70 oranı, referanslar bölümü
 
-## Sonra
-1. Netleşen bilgileri ilgili belgelere yansıt (yeni adres → firma.md, makine envanteri → farklılaştırıcılar.md, vb.)
-2. Sunum içeriğini toplantı sonuçlarına göre güncelle (`scripts/build_sunum.py` düzenle → `.venv/bin/python scripts/build_sunum.py`)
-3. Bütçe ve scope onayı sonrası: teklif/sözleşme dokümanı
+## Sonra (müşteri onayı geldikten sonra)
+1. Reklam bütçesi teklifi netleştir → müşteri ile birlikte kanal dağılımı
+2. Domain kontrolü, hosting devri, Instagram/Meta erişim, Google Business hesap devri
+3. Foto/video çekim planı (mevcut arşivden çıkarılacak görseller + yeni çekim ihtiyacı)
+4. Sözleşme/teklif dokümanı hazırla (`docs/teklif.md` oluştur)
+5. Sunum içeriğini toplantı sonuçlarına göre güncelle (`scripts/build_sunum.py` düzenle)
 
-## Açık sorular (toplantıda kapatılacak)
+## Açık doğrulamalar
+- **5 metre torna** — boy mu çap mı (27.04 yazışmasındaki "çap 780 × boy 5000" ile uyumlu mu)
 - Yeni adres tam metni (GBP için)
-- Tam makine envanteri (talaşlı imalat parkı)
-- Diğer rakip firmalar (Uysal, NYT doğrulanacak + ek)
-- Müşteri profili ve hedef coğrafya
-- Domain/hosting/Instagram erişim sahipliği
-- Foto/video arşivi var mı, çekim gerekli mi
-- Bütçe ve hedef canlıya alınma tarihi
-- Karar mekanizması (tek karar verici Fahrettin Bey mi?)
+- Tam makine envanteri (talaşlı imalat parkı detayı)
+- Diğer rakip firmalar (Uysal, NYT toplantıda netleşmedi — onay sonrası tekrar)
+- Domain/hosting sahipliği bilgisi
 
 ## Geliştirme ortamı
 - `.venv/` (gitignore'da) — `python -m venv .venv && .venv/bin/pip install python-pptx`
