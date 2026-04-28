@@ -94,3 +94,36 @@
 
 ### Sonuç
 **Karar süreci:** Müşteri düşünme zamanı istedi. Onay sonrası başlangıç 1 hafta içinde, 2-3 haftada teslim hedefi.
+
+### Toplantı sonrası iç değerlendirme
+Görüşme transkripti dış bir değerlendiriciye okutuldu. Çıkan sonuç: müşterinin 6 farklı şekilde tekrarladığı *"bu büyüklükte bir şeye hazır değilim"* sinyali iltifat sanılmış; aylık 20K paket ve uzun vizyon anlatısı müşterinin "şu an bana fazla" yargısını oturtmuş. Detaylı analiz ve gelecek toplantılar için ders defteri: [post-mortem-2026-04-28.md](./post-mortem-2026-04-28.md).
+
+**Strateji revizyonu:** Aylık bağ ve reklam yönetimi paketten çıkarılıyor; tek seferlik düşük taahhütlü kurulum paketi ile dönülecek. Detay: [teklif-v2.md](./teklif-v2.md).
+
+---
+
+## 2026-05-03 → 2026-05-05 — Planlanan takip iletişimi (taslak)
+
+**Format:** WhatsApp mesajı, kısa, baskısız. Müşterinin kendi dönmesini bekleyen "kapı aralık" tonu.
+**Zamanlama:** Toplantıdan 5-7 gün sonra (yaklaşık **2026-05-03 ↔ 2026-05-05** arası).
+**Durum:** Henüz gönderilmedi — taslak.
+
+### Mesaj taslağı
+> Merhaba Fahrettin Bey, görüşmemiz üzerinde tekrar düşündüm.
+>
+> Söyledikleriniz haklıydı — anlattığım yapı sizin şu anki ihtiyacınız için fazla geniş kalıyordu. Bunun üzerine size daha sade, aylık bağlantı içermeyen bir kurulum paketi hazırladım.
+>
+> İlgilenirseniz detayları her zaman konuşabiliriz. İyi haftalar dilerim.
+
+### Mesajın taşıdığı pozisyon
+- **Müşteriyi haklı çıkarıyor** — "söyledikleriniz haklıydı". Geri çekilen müşteri için yüz kurtarıcı.
+- **Aylık bağ olmadığını net söylüyor** — temel itirazı doğrudan adresliyor.
+- **Baskı yok** — "ilgilenirseniz", soru işareti yok, "ne dersiniz" yok. Müşteri kendi gelir.
+- **Detay yok** — fiyat, süre, paket içeriği mesajda geçmiyor. Müşteri yanıt verirse o zaman [teklif-v2.md](./teklif-v2.md) içeriği iletilir.
+
+### Mesaj sonrası senaryolar
+| Müşteri yanıtı | Aksiyon |
+| -------------- | ------- |
+| "Detay nedir?" | teklif-v2 paketini özetle ilet (15.000 TL tek seferlik, web + GBP + temel SEO, aylık bağ yok). Görüşme öner. |
+| "Şu an düşünmüyorum" | "Anlıyorum, ileride aklınıza geldiğinde her zaman buradayım" — kapıyı açık bırak. 2-3 ay sonra tekrar light dokunuş. |
+| Yanıt yok (1 hafta) | Tek bir sessiz takip: kısa görsel/değer paylaşımı (örn. "Mekanik bakım sektöründe yapay zeka aramalarda öne çıkma örneği" gibi içerik). Üçüncü mesaj yok. |

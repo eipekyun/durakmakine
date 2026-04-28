@@ -1,45 +1,48 @@
 # Oturum Özeti
 
-**Son güncelleme:** 2026-04-28
+**Son güncelleme:** 2026-04-28 (toplantı sonrası strateji revizyonu)
 **Repo:** https://github.com/eipekyun/durakmakine
-**Aşama:** ESMARK Digital Marketing müşteri projesi — **toplantı tamamlandı, müşteri karar bekliyor**
+**Aşama:** Toplantı tamamlandı, **post-mortem yapıldı**, **strateji revize edildi**, müşteriye 5-7 gün sonra low-commitment paket ile dönülecek.
 
 ## Hemen sıradaki iş
-**Müşteri düşünme süreci.** 2026-04-28 telefon görüşmesi (~75 dk) yapıldı; teklif sözel olarak iletildi (web kurulum 20.000 TL + aylık 20.000 TL + ayrı reklam bütçesi). Onay gelene kadar:
-1. Reklam bütçesi maliyet hesaplaması (sektörel benchmark + kanal dağılımı)
-2. **5 metre torna** detayı yazılı olarak doğrulanmalı (boy mu çap mı — 27.04 yazışmasındaki "çap 780 × boy 5000" ile çelişiyor olabilir)
-3. Onay gelirse: WhatsApp grubu + Drive klasörü kurulacak, 1 hafta içinde başlangıç, 2-3 haftada teslim
+**2026-05-03 ↔ 2026-05-05 arası takip mesajı.** Müşteri "düşüneceğim" pozisyonunda, aylık 20K paket ona fazla geldi. Yeni plan:
 
-Toplantı detayı: [gorusmeler.md → 2026-04-28](./gorusmeler.md)
+1. **5-7 gün sessiz bekleme** (müşterinin "düşünme zamanı" talebine saygı + baskı yokluğu sinyali)
+2. **Kısa WhatsApp mesajı** — taslak hazır: [gorusmeler.md → planlanan takip](./gorusmeler.md). Ton: müşteriyi haklı çıkar, aylık bağ olmadığını net söyle, detay isterse iletmek üzere kapıyı açık bırak.
+3. **Müşteri detay isterse** revize teklif sunulur: [teklif-v2.md](./teklif-v2.md) — **15.000 TL tek seferlik**, web + GBP + temel SEO, aylık yönetim ve reklam yok.
+
+## Toplantı post-mortem — özet
+Detay: [post-mortem-2026-04-28.md](./post-mortem-2026-04-28.md). Ana bulgular:
+- Müşteri 6 farklı yerde *"bu büyüklükte bir şeye hazır değilim"* dedi, iltifat sanıldı.
+- *"Sizin web sayfasına değil, sisteme ihtiyacınız var"* cümlesi satışın bittiği an oldu.
+- Çapraz referanslar (Akademi Döner, Bambini, Amerika 2-3K dolar) müşterinin ölçek kaygısını derinleştirdi.
+- Bütçe konuşması toplantının %75'inde geldi — vizyon önce, fiyat sonra → "pahalıya patlar" yargısı oturmuş.
+- Toplantı yapısı satıcı pozisyonuydu (sunum + plan); danışman pozisyonu (önce soru, sonra çözüm) gerekiyordu.
+- **Gelecek toplantılar için 8 qualifying soru** ders defterinde — yüz yüze öncesi 15-20 dk telefonda sorulacak.
 
 ## Yapılanlar
-- Proje iskelet dizini, [README.md](../README.md) ve [CLAUDE.md](../CLAUDE.md) kuruldu
+- Proje iskelet, [README.md](../README.md), [CLAUDE.md](../CLAUDE.md)
 - Genel belgeler: [firma](./firma.md), [ihtiyaçlar](./ihtiyaclar.md), [rakipler](./rakipler.md), [farklılaştırıcılar](./farklilastiricilar.md), [görüşmeler](./gorusmeler.md)
-- Detaylı inceleme:
-  - [Mevcut web tespitleri](./inceleme/mevcut-web.md) — WordPress, blog 2020'de ölü, talaşlı imalat sitede yok, alt linkler kırık
-  - [Instagram durumu](./inceleme/instagram.md) — fetch sınırlı, manuel + toplantı kontrolü gerek
-  - [Mekasis derinlemesine analiz](./inceleme/mekasis.md) — temsilcilikler güçlü, galeri placeholder, 5 eksen iddiası kanıtsız
-  - [Sektör ve piyasa](./inceleme/sektor-piyasa.md) — Bursa otomotiv merkezi, Uysal ve NYT ek rakip, pres üreticileri iş ortağı potansiyeli
-- [2026-04-28 toplantı hazırlık dokümanı](./toplanti/2026-04-28-hazirlik.md) yazıldı
-- Müşteri sunumu üretildi: [`scripts/build_sunum.py`](../scripts/build_sunum.py) → `cikti/durak-sunum.pptx` (12 slayt, lacivert + turuncu B2B palet)
-- **2026-04-28 telefon görüşmesi tamamlandı** — toplantı notu ve WhatsApp özeti [gorusmeler.md](./gorusmeler.md) altına işlendi
-- Toplantıda netleşen bilgiler ilgili belgelere yansıtıldı:
-  - [firma.md](./firma.md) — referanslar (Arçelik, Airpol, Betek Metal), %60-70 taşeronsuz, mekanik+hidrolik+otomasyon
-  - [farklilastiricilar.md](./farklilastiricilar.md) — %60-70 oranı, referanslar bölümü
+- İncelemeler: [mevcut-web](./inceleme/mevcut-web.md), [instagram](./inceleme/instagram.md), [mekasis](./inceleme/mekasis.md), [sektor-piyasa](./inceleme/sektor-piyasa.md)
+- [2026-04-28 toplantı hazırlığı](./toplanti/2026-04-28-hazirlik.md)
+- Müşteri sunumu: [`scripts/build_sunum.py`](../scripts/build_sunum.py) → `cikti/durak-sunum.pptx`
+- **2026-04-28 telefon görüşmesi (~75 dk)** — notlar [gorusmeler.md](./gorusmeler.md) altına işlendi
+- **Toplantı post-mortem ve ders defteri:** [post-mortem-2026-04-28.md](./post-mortem-2026-04-28.md)
+- **Revize teklif paketi:** [teklif-v2.md](./teklif-v2.md) — 15.000 TL tek seferlik, low-commitment
+- **Takip mesajı taslağı:** [gorusmeler.md](./gorusmeler.md) → planlanan iletişim (2026-05-03 ↔ 2026-05-05)
 
-## Sonra (müşteri onayı geldikten sonra)
-1. Reklam bütçesi teklifi netleştir → müşteri ile birlikte kanal dağılımı
-2. Domain kontrolü, hosting devri, Instagram/Meta erişim, Google Business hesap devri
-3. Foto/video çekim planı (mevcut arşivden çıkarılacak görseller + yeni çekim ihtiyacı)
-4. Sözleşme/teklif dokümanı hazırla (`docs/teklif.md` oluştur)
-5. Sunum içeriğini toplantı sonuçlarına göre güncelle (`scripts/build_sunum.py` düzenle)
+## Sonra (müşteri yanıtına göre dallanır)
+- **Yanıt: "detay nedir?"** → teklif-v2 özeti gönder, görüşme öner; kabul ederse domain/hosting/erişim devri başlar
+- **Yanıt: "şu an düşünmüyorum"** → kapıyı açık bırak; 2-3 ay sonra ışık dokunuş
+- **Yanıt yok (1 hafta)** → tek bir sessiz değer paylaşımı; üçüncü mesaj yok
 
-## Açık doğrulamalar
-- **5 metre torna** — boy mu çap mı (27.04 yazışmasındaki "çap 780 × boy 5000" ile uyumlu mu)
+## Açık doğrulamalar (sözleşme öncesi)
+- 5 metre torna ifadesinde "boy mu çap mı" — 27.04 yazışmasındaki "çap 780 × boy 5000 mm" ile tutarlılık
 - Yeni adres tam metni (GBP için)
-- Tam makine envanteri (talaşlı imalat parkı detayı)
-- Diğer rakip firmalar (Uysal, NYT toplantıda netleşmedi — onay sonrası tekrar)
+- Tam makine envanteri yazılı liste
+- Referans müşteri (Arçelik, Airpol, Betek Metal) logo + isim kullanma izni
 - Domain/hosting sahipliği bilgisi
+- Foto/video arşivi durumu
 
 ## Geliştirme ortamı
 - `.venv/` (gitignore'da) — `python -m venv .venv && .venv/bin/pip install python-pptx`

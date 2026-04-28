@@ -1,6 +1,6 @@
 # Durak Makine Otomasyon — Web ve Sosyal Medya Yenileme
 
-ESMARK Digital Marketing müşteri projesi. Şu an **inceleme / teklif aşaması**.
+ESMARK Digital Marketing müşteri projesi. Şu an **toplantı sonrası, müşteri karar bekliyor — strateji revize edildi, low-commitment paket ile takip planlandı**.
 
 ## Müşteri
 - **Firma:** Durak Makine Otomasyon
@@ -25,6 +25,10 @@ ESMARK Digital Marketing müşteri projesi. Şu an **inceleme / teklif aşaması
 - [Farklılaştırıcılar](./docs/farklilastiricilar.md)
 - [Görüşme ve yazışma notları](./docs/gorusmeler.md)
 - [Oturum özeti](./docs/SESSION_SUMMARY.md)
+
+### Satış süreci
+- [2026-04-28 toplantı post-mortem ve ders defteri](./docs/post-mortem-2026-04-28.md)
+- [Revize teklif — low-commitment paket](./docs/teklif-v2.md)
 
 ### İncelemeler
 - [Mevcut web sitesi tespitleri](./docs/inceleme/mevcut-web.md)
