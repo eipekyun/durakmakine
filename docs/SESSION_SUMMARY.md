@@ -1,19 +1,20 @@
 # Oturum Özeti
 
-**Son güncelleme:** 2026-04-28 (toplantı sonrası strateji revizyonu)
+**Son güncelleme:** 2026-05-04 (müşteri kendi döndü, ofis ziyareti planlandı)
 **Repo:** https://github.com/eipekyun/durakmakine
-**Aşama:** Toplantı tamamlandı, **post-mortem yapıldı**, **strateji revize edildi**, müşteriye 5-7 gün sonra low-commitment paket ile dönülecek.
+**Aşama:** Toplantı tamamlandı → post-mortem → strateji revize → **müşteri kendi döndü**, yarın yüz yüze ofis ziyareti.
 
 ## Hemen sıradaki iş
-**2026-05-05 Salı veya 2026-05-06 Çarşamba sabahı (10-11) takip mesajı.** Müşteri "düşüneceğim" pozisyonunda, aylık 20K paket ona fazla geldi. Pencere bu iki güne sıkışıyor çünkü:
-- 05-01 Cuma → **1 Mayıs tatili**
-- 05-02/03 → hafta sonu
-- 05-04 Pzt → 1 Mayıs köprü günü (yarım/kapalı)
+**2026-05-05 Salı 14:00 — Fahrettin Durak ESMARK ofisine ziyarete geliyor.** Google Calendar etkinliği kuruldu, hatırlatmalar 12:00 ve 13:45.
 
-Yeni plan:
-1. **7-8 gün sessiz bekleme** (müşterinin "düşünme zamanı" talebine saygı + baskı yokluğu sinyali, tatil penceresinden geç)
-2. **Kısa WhatsApp mesajı** — taslak hazır: [gorusmeler.md → planlanan takip](./gorusmeler.md). Ton: müşteriyi haklı çıkar, aylık bağ olmadığını net söyle, detay isterse iletmek üzere kapıyı açık bırak.
-3. **Müşteri detay isterse** revize teklif sunulur: [teklif-v2.md](./teklif-v2.md) — **15.000 TL tek seferlik**, web + GBP + temel SEO, aylık yönetim ve reklam yok.
+Bağlam: Müşteri 28 Nisan toplantısından sonra "düşüneceğim" pozisyonundaydı, ESMARK'ın geçen hafta yaptığı birkaç aramaya **2026-05-04'te dönüş yaptı** ve yüz yüze görüşme talep etti — planlanan WhatsApp takip mesajı devre dışı.
+
+Toplantı pozisyonu (post-mortem ders defterinden):
+1. **Danışman tutumu — önce qualifying soruları, sonra çözüm.** Sunum + plan dayatma.
+2. **Düşük taahhüt:** [teklif-v2.md](./teklif-v2.md) → 15.000 TL tek seferlik, web + GBP + temel SEO. Aylık bağ ve reklam yok.
+3. **Açık doğrulamalar** (sözleşme öncesi sorulacak — bkz. aşağı): 5m torna ölçüsü, yeni adres, makine envanteri, referans logo izni, domain/hosting sahipliği, foto/video arşivi.
+
+Detay ve hazırlık checklist: [gorusmeler.md → 2026-05-05 ofis ziyareti](./gorusmeler.md).
 
 ## Toplantı post-mortem — özet
 Detay: [post-mortem-2026-04-28.md](./post-mortem-2026-04-28.md). Ana bulgular:

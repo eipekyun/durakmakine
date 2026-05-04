@@ -102,11 +102,50 @@ Görüşme transkripti dış bir değerlendiriciye okutuldu. Çıkan sonuç: mü
 
 ---
 
-## 2026-05-05 / 2026-05-06 — Planlanan takip iletişimi (taslak)
+## 2026-05-04 — Telefon dönüşü (Fahrettin Durak)
 
-**Format:** WhatsApp mesajı, kısa, baskısız. Müşterinin kendi dönmesini bekleyen "kapı aralık" tonu.
-**Zamanlama:** **2026-05-05 Salı veya 2026-05-06 Çarşamba sabahı (10:00-11:00).**
-**Durum:** Henüz gönderilmedi — taslak.
+**Format:** Telefon. ESMARK'ın geçen hafta boyunca yaptığı birkaç aramaya müşteri bugün dönüş yaptı.
+**Sonuç:** Müşteri yarın (2026-05-05 Salı 14:00) ESMARK ofisine ziyarete geliyor — yüz yüze görüşme.
+
+**Anlam:**
+- Planlanan WhatsApp takip mesajı (aşağıda) **devre dışı** — müşteri kendi döndü, ofis ziyareti talep etti.
+- Müşteri yüz yüze görüşmeye geliyorsa **ilgi var** sinyali; "şu an düşünmüyorum" senaryosu elendi.
+- Pozisyon: post-mortem ders defterindeki **danışman tutumu** — önce qualifying soruları, sonra çözüm. Sunum + plan dayatma.
+
+---
+
+## 2026-05-05 — Ofis ziyareti (planlanan)
+
+**Format:** Yüz yüze, ESMARK ofisinde, 14:00.
+**Google Calendar:** etkinlik oluşturuldu, hatırlatmalar 12:00 ve 13:45 popup.
+**Hedef:** Müşteriyi haklı çıkar, ihtiyacını sade dille netleştir, taahhütsüz kurulum paketini ([teklif-v2.md](./teklif-v2.md)) gerekirse anlat.
+
+### Hazırlık checklist
+- [ ] [teklif-v2.md](./teklif-v2.md) son hali — 15.000 TL tek seferlik, web + GBP + temel SEO, aylık bağ yok
+- [ ] [post-mortem-2026-04-28.md](./post-mortem-2026-04-28.md) → 8 qualifying sorusu yeniden gözden geçirilsin
+- [ ] Açık doğrulamalar listesi yanında (defter/yazılı):
+  - 5 m torna boy mu çap mı (27.04 yazışmasındaki "çap 780 × boy 5000 mm" tutarlılığı)
+  - Yeni adres tam metni (GBP için)
+  - Tam makine envanteri yazılı liste
+  - Referans müşteri (Arçelik, Airpol, Betek Metal) logo + isim kullanma izni
+  - Domain/hosting sahipliği bilgisi
+  - Foto/video arşivi durumu
+
+### Kırmızı çizgiler (post-mortem'den hatırlatma)
+- "Sizin sisteme ihtiyacınız var, web sayfasına değil" gibi büyük cümleler **bu toplantıda yok** — müşteri kendi alanında uzman.
+- Aylık 20K paket ve "vizyon önce, fiyat sonra" sırası **tekrarlanmaz** — düşük taahhüt + net kapsam + net fiyat.
+- Çapraz referans (Akademi Döner, Bambini, Amerika fiyatları) **getirme** — ölçek kaygısını derinleştirdi.
+- Müşteri "düşüneceğim" derse zorlama; toplantıyı kapat, yazılı özet WhatsApp'tan iletilir.
+
+### Görüşme sonrası
+- Toplantı notları bu dosyaya, yeni bir bölüm olarak.
+- Karar netleşirse: domain/hosting devri, erişim bilgileri, foto/video planlama → ayrı bölüm.
+
+---
+
+## 2026-05-05 / 2026-05-06 — Planlanan takip iletişimi (taslak — DEVRE DIŞI)
+
+**Durum:** **Uygulanmadı.** Müşteri 2026-05-04'te kendi dönüş yaptı ve ofis ziyareti talep etti — bu mesaja gerek kalmadı. Aşağıdaki taslak ileride benzer "soğuk takip" senaryoları için referans olarak saklanıyor.
 
 ### Neden bu pencere
 Toplantı 2026-04-28 Salı yapıldı. Tatil takvimi nedeniyle önündeki günler sürekli atılır:
