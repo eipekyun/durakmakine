@@ -114,11 +114,41 @@ Görüşme transkripti dış bir değerlendiriciye okutuldu. Çıkan sonuç: mü
 
 ---
 
-## 2026-05-05 — Ofis ziyareti (planlanan)
+## 2026-05-05 — Ofis ziyareti **İPTAL**
 
-**Format:** Yüz yüze, ESMARK ofisinde, 14:00.
-**Google Calendar:** etkinlik oluşturuldu, hatırlatmalar 12:00 ve 13:45 popup.
-**Hedef:** Müşteriyi haklı çıkar, ihtiyacını sade dille netleştir, taahhütsüz kurulum paketini ([teklif-v2.md](./teklif-v2.md)) gerekirse anlat.
+**Durum:** Toplantı yapılmadı. Fahrettin Bey randevudan ~30 dk önce (≈13:30) aradı, işi çıktığını bildirdi.
+**Müşteri tarafı sinyalleri:**
+- Saat sorunu var — gün içi 14:00 ona zor geliyor olabilir (üst üste iki kez randevu verirken zorluk: önce dönüş gecikmesi, şimdi son dakika iptal).
+- Alternatif önerileri: **akşam online görüşme** veya **gün içi başka bir vakit**.
+- "Haberleşeceğiz, 2 gün içinde tekrar bağlantı kurarız" dedi → karar verme niyeti devam ediyor, tamamen geri çekilmedi.
+
+**ESMARK pozisyonu (öneri):**
+- Top yine müşteride; baskı yok. 2 gün içinde dönmezse 2026-05-07 Perşembe sabahı (10-11) kısa WhatsApp ile yeniden değme — **sadece müsait saat sorulur**, içerik konuşulmaz.
+- Müşteri akşam online tercih ederse Google Meet linki + Calendar daveti hazırla; ofise zorlamayı bırak.
+- Yüz yüze yerine online'a geçmek toplantının niteliğini değiştirmez ama müşterinin yükünü azaltır → **bu projede online lehine esne**.
+
+**Calendar:** Etkinlik silindi, hatırlatmalar iptal.
+
+### Hazırlık (yeni randevu için yine geçerli)
+- [ ] [teklif-v2.md](./teklif-v2.md) son hali — 15.000 TL tek seferlik, web + GBP + temel SEO, aylık bağ yok
+- [ ] [post-mortem-2026-04-28.md](./post-mortem-2026-04-28.md) → 8 qualifying sorusu yeniden gözden geçirilsin
+- [ ] Açık doğrulamalar listesi yanında (defter/yazılı):
+  - 5 m torna boy mu çap mı (27.04 yazışmasındaki "çap 780 × boy 5000 mm" tutarlılığı)
+  - Yeni adres tam metni (GBP için)
+  - Tam makine envanteri yazılı liste
+  - Referans müşteri (Arçelik, Airpol, Betek Metal) logo + isim kullanma izni
+  - Domain/hosting sahipliği bilgisi
+  - Foto/video arşivi durumu
+
+### Kırmızı çizgiler (post-mortem'den hatırlatma)
+- "Sizin sisteme ihtiyacınız var, web sayfasına değil" gibi büyük cümleler **bu toplantıda yok** — müşteri kendi alanında uzman.
+- Aylık 20K paket ve "vizyon önce, fiyat sonra" sırası **tekrarlanmaz** — düşük taahhüt + net kapsam + net fiyat.
+- Çapraz referans (Akademi Döner, Bambini, Amerika fiyatları) **getirme** — ölçek kaygısını derinleştirdi.
+- Müşteri "düşüneceğim" derse zorlama; toplantıyı kapat, yazılı özet WhatsApp'tan iletilir.
+
+### Görüşme sonrası
+- Toplantı notları bu dosyaya, yeni bir bölüm olarak.
+- Karar netleşirse: domain/hosting devri, erişim bilgileri, foto/video planlama → ayrı bölüm.
 
 ### Hazırlık checklist
 - [ ] [teklif-v2.md](./teklif-v2.md) son hali — 15.000 TL tek seferlik, web + GBP + temel SEO, aylık bağ yok

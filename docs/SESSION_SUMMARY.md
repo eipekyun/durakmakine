@@ -1,20 +1,19 @@
 # Oturum Özeti
 
-**Son güncelleme:** 2026-05-04 (müşteri kendi döndü, ofis ziyareti planlandı)
+**Son güncelleme:** 2026-05-05 (ofis ziyareti son dakika iptal, yeni randevu bekleniyor)
 **Repo:** https://github.com/eipekyun/durakmakine
-**Aşama:** Toplantı tamamlandı → post-mortem → strateji revize → **müşteri kendi döndü**, yarın yüz yüze ofis ziyareti.
+**Aşama:** 28 Nisan toplantı → post-mortem → strateji revize → 04 Mayıs müşteri dönüşü → **05 Mayıs ofis ziyareti müşteri tarafından iptal edildi**, alternatif zaman önerisi gelecek.
 
 ## Hemen sıradaki iş
-**2026-05-05 Salı 14:00 — Fahrettin Durak ESMARK ofisine ziyarete geliyor.** Google Calendar etkinliği kuruldu, hatırlatmalar 12:00 ve 13:45.
+**Pasif bekleme: müşteri 2 gün içinde alternatif zaman önerecek (kendi dediği).** Müşteri 2026-05-05 14:00 randevusundan 30 dk önce aradı, iş çıktığını söyledi. Saat sorunu olduğunu ima etti — akşam online veya gün içi başka vakit önerebilir.
 
-Bağlam: Müşteri 28 Nisan toplantısından sonra "düşüneceğim" pozisyonundaydı, ESMARK'ın geçen hafta yaptığı birkaç aramaya **2026-05-04'te dönüş yaptı** ve yüz yüze görüşme talep etti — planlanan WhatsApp takip mesajı devre dışı.
+ESMARK aksiyonu:
+1. **2 gün bekle.** Müşterinin kendi geri dönmesini bekle, baskı yok.
+2. **2026-05-07 Perşembe sabahı (10-11) hâlâ ses yoksa** kısa WhatsApp: "Müsait olduğunuz vakti söyleyin, online da olabilir, gün içi de" — **sadece saat sorulur, içerik konuşulmaz**.
+3. **Akşam online tercih ederse** Google Meet linki + Calendar daveti hazırla; ofiste yüz yüze ısrar etme — müşterinin yükünü azalt.
+4. Yeni randevu netleşene kadar [teklif-v2.md](./teklif-v2.md) ve qualifying soru hazırlığı sıcak tutulur — yeniden çıkartmaya gerek yok.
 
-Toplantı pozisyonu (post-mortem ders defterinden):
-1. **Danışman tutumu — önce qualifying soruları, sonra çözüm.** Sunum + plan dayatma.
-2. **Düşük taahhüt:** [teklif-v2.md](./teklif-v2.md) → 15.000 TL tek seferlik, web + GBP + temel SEO. Aylık bağ ve reklam yok.
-3. **Açık doğrulamalar** (sözleşme öncesi sorulacak — bkz. aşağı): 5m torna ölçüsü, yeni adres, makine envanteri, referans logo izni, domain/hosting sahipliği, foto/video arşivi.
-
-Detay ve hazırlık checklist: [gorusmeler.md → 2026-05-05 ofis ziyareti](./gorusmeler.md).
+Detay ve hazırlık checklist: [gorusmeler.md → 2026-05-05 ofis ziyareti İPTAL](./gorusmeler.md).
 
 ## Toplantı post-mortem — özet
 Detay: [post-mortem-2026-04-28.md](./post-mortem-2026-04-28.md). Ana bulgular:
