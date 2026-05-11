@@ -1,3 +1,4 @@
+<!-- murtaza:perfex_lead_id=4 -->
 # Durak Makine Otomasyon — Proje Talimatları
 
 ESMARK altında müşteri projesi. **İnceleme / teklif aşaması** — henüz kod yok.
